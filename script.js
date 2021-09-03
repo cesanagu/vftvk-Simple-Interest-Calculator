@@ -15,7 +15,7 @@ function compute() {
     alert("Enter a positive number");
     result.innerHTML = "<br><mark>TRY AGAIN</mark><br>";
   } else {
-    result.innerHTML = `<br>If you deposit <mark>${p}</mark>, <br>at an interest rate of <mark>${rate}</mark>. 
+    result.innerHTML = `<br>If you deposit <mark>${p}</mark>, <br>at an interest rate of <mark>${rate}%</mark>. 
     <br>You will receive an amount of <mark>${interest}</mark>,<br>in the year ${year}.<br>`;
   }
 }
